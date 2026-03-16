@@ -13,7 +13,6 @@ import {
 } from 'lucide-react';
 
 
-
 // --- BASE DE DADOS COMPLETA E REORGANIZADA ---
 
 const portfolioItems = [
@@ -24,9 +23,9 @@ const portfolioItems = [
 
     id: 10, type: 'social', source: 'instagram', link: 'https://www.instagram.com/p/CgfYlofJff5/',
 
-    title: 'Brand Revival: Banda da Freguesia',
+    title: 'Revitalização de Marca: Banda da Freguesia',
 
-    desc: 'Revitalização de assets digitais baseada no património visual histórico da marca, respeitando as directrizes de 1997.'
+    desc: 'Redesign de ativos digitais baseado no patrimônio visual histórico da marca, respeitando as diretrizes originais de 1997.'
 
   },
 
@@ -34,7 +33,7 @@ const portfolioItems = [
 
     id: 11, type: 'social', source: 'instagram', link: 'https://www.instagram.com/p/DT27cZGDWOO/',
 
-    title: 'Branding Territorial: Feira Taquara',
+    title: 'Branding Territorial: Feira na Taquara',
 
     desc: 'Criação de identidade visual estratégica para feira gastronómica, focada em gerar conexão com o público local.'
 
@@ -44,7 +43,7 @@ const portfolioItems = [
 
     id: 13, type: 'social', source: 'instagram', link: 'https://www.instagram.com/p/DNokCsESrWJ/',
 
-    title: 'Content Design & Public Science',
+    title: 'Carrossel com engajamento',
 
     desc: 'Estratégia de visualização de dados para divulgação científica. Performance de 23.8 mil impressões orgânicas.'
 
@@ -68,7 +67,7 @@ const portfolioItems = [
 
     id: 12, type: 'logotipos', source: 'instagram', link: 'https://www.instagram.com/p/DQxhbgGDnk_/',
 
-    title: 'Brand Identity: Tech & Society',
+    title: 'Identidade Visual e Logo',
 
     desc: 'Desenvolvimento de sistema visual e logótipo para projecto de investigação focado em Inteligência Artificial e Sociedade.'
 
@@ -80,13 +79,13 @@ const portfolioItems = [
 
     imagePath: 'https://i.imgur.com/oQBAE7Z.png',
 
-    title: 'Logo Redesign: CASOC PUC-Rio',
+    title: 'Redesign: CASOC PUC-Rio',
 
     desc: 'Evolução da marca do Centro Académico de Ciências Sociais. Desenvolvido como tributo ao legado de Vânia Santos.',
 
     externalUrl: 'https://www.instagram.com/casoc_pucrio/',
 
-    externalLabel: 'Ver Brand Presence no Instagram'
+    externalLabel: 'Ver Brand no Instagram'
 
   },
 
@@ -100,9 +99,9 @@ const portfolioItems = [
 
     link: 'https://www.instagram.com/p/DVjqKyZiaTB/',
 
-    title: 'Campaign Layout: Maternidade',
+    title: 'Modelo de layout: Maternidade',
 
-    desc: 'Desenvolvimento de templates para evento focado em políticas de permanência estudantil.'
+    desc: 'Desenvolvimento de templates para evento focado em políticas de permanência feminina na universidade.'
 
   },
 
@@ -118,9 +117,9 @@ const portfolioItems = [
 
     ],
 
-    title: 'Event Identity: Vila Delas',
+    title: 'Identidade Visual: Vila Delas',
 
-    desc: 'Concepção de universo visual e peças de comunicação integradas para campanha de permanência feminina.'
+    desc: 'Concepção de identidade visual e peças de comunicação integradas para campanha de permanência feminina na universidade.'
 
   },
 
@@ -130,7 +129,7 @@ const portfolioItems = [
 
     link: 'https://www.instagram.com/p/DVeL55ACTHh/',
 
-    title: 'Institutional Design Asset',
+    title: 'Design Institucional',
 
     desc: 'Peça gráfica desenvolvida para comunicação do alunato de Ciências Sociais da PUC-Rio.'
 
@@ -142,13 +141,13 @@ const portfolioItems = [
 
     link: 'https://www.instagram.com/p/DKc3MPoSzj3/',
 
-    title: 'Cover Art & Visual Concept',
+    title: 'Arte conceitual para EP "Be a Voice not an Echo"',
 
-    desc: 'Design de capa para single de vinil bilingue, explorando a intersecção entre arte e ciência internacional.',
+    desc: 'Design de capa para single de vinil bilingue, feito para a Universidade de Furtwangen (Alemanhã). Capa feita usando técnicas de corte e colagem e scanner',
 
     externalUrl: 'https://www.hs-furtwangen.de/aktuelles/detail/1274-begeisterung-fuer-oeffentliche-wissenschaft',
 
-    externalLabel: 'Project Details - HfU Germany'
+    externalLabel: 'Detalhes do Projeto - HfU'
 
   },
 
@@ -158,7 +157,7 @@ const portfolioItems = [
 
     link: 'https://www.instagram.com/p/DJXw7VGtJHA/',
 
-    title: 'EP Visual Exploration',
+    title: 'Estudo complementar EP "Be a Voice not an Echo"',
 
     desc: 'Estudo complementar e exploração visual para projecto bilingue de Public Science.'
 
@@ -174,9 +173,9 @@ const portfolioItems = [
 
     link: 'https://www.canva.com/design/DAGYJcT4Ti8/vKQEU1OtFDpaXTJljYYn_Q/view?embed',
 
-    title: 'Editorial Design & InfoVis',
+    title: 'Design Editorial & InfoVis',
 
-    desc: 'Projecto gráfico do relatório científico "Impacto ambiental na saúde das mulheres na favela de Rio das Pedras".'
+    desc: 'Projecto gráfico do relatório científico de 54 páginas "Impacto ambiental na saúde das mulheres na favela de Rio das Pedras" vinculada a Fiocruz, Inpro e PUC-Rio.'
 
   },
 
@@ -188,7 +187,7 @@ const portfolioItems = [
 
     id: 8, type: 'video', source: 'instagram', link: 'https://www.instagram.com/reel/DT5reapEfGH/',
 
-    title: 'Cultura e Sabores (IA Conceptual)',
+    title: 'Cultura e Sabores (Takes conceituais criados por IA)',
 
     desc: 'Estratégia visual para evento gastronómico utilizando vídeos gerados por IA para prototipagem de produção e direção de arte.'
 
@@ -198,7 +197,7 @@ const portfolioItems = [
 
     id: 9, type: 'video', source: 'instagram', link: 'https://www.instagram.com/reel/DT09spJEmWe/',
 
-    title: 'Cultura e Sabores (WhatsApp Strategy)',
+    title: 'Cultura e Sabores (Estratégia de WhatsApp)',
 
     desc: 'Peça publicitária otimizada para circulação em redes móveis (dark social), incluindo narração e dublagem original.'
 
@@ -208,9 +207,9 @@ const portfolioItems = [
 
     id: 2, type: 'video', source: 'instagram', link: 'https://www.instagram.com/reel/C8c5CS1uljB/',
 
-    title: 'Public Safety Cover: 18º BPM',
+    title: 'Cobertura de Segurança Pública',
 
-    desc: 'Edição e legendagem estratégica de ação conjunta entre Freguesia em Ação e o programa Bairro Presente.'
+    desc: 'Edição e legendagem estratégica de ação conjunta entre Freguesia em Ação e o programa Bairro Presente (18º BPM).'
 
   },
 
@@ -218,7 +217,7 @@ const portfolioItems = [
 
     id: 4, type: 'video', source: 'instagram', link: 'https://www.instagram.com/reel/DRnE81kCcSX/',
 
-    title: 'Reels CineDebate: Investigação Social',
+    title: 'Reels do CineDebate "Minha voz não pode calar"',
 
     desc: 'Captação e montagem de narrativa visual para pós-produção do cineclube do Departamento de Ciências Sociais da PUC-Rio.'
 
@@ -228,7 +227,7 @@ const portfolioItems = [
 
     id: 5, type: 'video', source: 'vimeo', link: 'https://player.vimeo.com/video/1148315267',
 
-    title: 'Documentary: "Minha voz não pode calar"',
+    title: 'Documentário e Cinedebate: "Minha voz não pode calar"',
 
     desc: 'Direcção e edição de versão documental curta focada em narrativas de resistência e impacto social.'
 
@@ -238,7 +237,7 @@ const portfolioItems = [
 
     id: 1, type: 'video', source: 'instagram', link: 'https://www.instagram.com/reel/CyHlLZguGag/',
 
-    title: 'Advocacy: Floresta em Pé',
+    title: 'Campanha: Floresta em Pé',
 
     desc: 'Cobertura audiovisual da visita institucional da Secretária de Meio Ambiente Tainá de Paula à região do Quitite.'
 
@@ -248,7 +247,7 @@ const portfolioItems = [
 
     id: 3, type: 'video', source: 'instagram', link: 'https://www.instagram.com/reel/C7VF5u1PIs7/',
 
-    title: 'Crisis & Community Mobilization',
+    title: 'Convocação - Freguesia em Ação',
 
     desc: 'Documentação de conflitos urbanos e convocatória estratégica para articulação na Universidade Candido Mendes.'
 
@@ -258,9 +257,9 @@ const portfolioItems = [
 
     id: 23, type: 'video', source: 'instagram', link: 'https://www.instagram.com/p/DF5XAunOr_n/',
 
-    title: 'Ciclo Folia: Urban Culture',
+    title: 'AMAF: Ciclo Folia',
 
-    desc: 'Motion design para a AMAF focado na interseção entre cicloativismo e património cultural carnavalesco local.'
+    desc: 'Motion design para a Associação de Moradores e Amigos da Freguesia (AMAF) focado na interseção entre cicloativismo e património cultural carnavalesco local.'
 
   },
 
@@ -272,41 +271,41 @@ const skillCategories = [
 
   {
 
-    title: "Data & Social Science",
+    title: "Dados & Ciências Sociais",
 
     icon: <Database size={18} />,
 
-    skills: ["Computational Social Science", "Python/R/SPSS", "Web Scraping", "NLP", "Data Ethics"]
+    skills: ["Ciências Sociais Computacionais", "Python/R/Java/SPSS", "Extração de Dados (Web Scraping)", "Processamento de Linguagem Natural (NLP)", "Ética de Dados"]
 
   },
 
   {
 
-    title: "Growth & Performance",
+    title: "Estratégia & Performance",
 
     icon: <Target size={18} />,
 
-    skills: ["Meta Ads", "Marketing Automation", "Copywriting", "IA Prompting", "Analytics"]
+    skills: ["Básico de Gestão de tráfego no Meta Ads", "Marketing de performance", "Copywriting", "Engenharia de Prompt (IA)", "Análise de Métricas"]
 
   },
 
   {
 
-    title: "Visual Design",
+    title: "Design",
 
     icon: <PenTool size={18} />,
 
-    skills: ["Adobe Creative Cloud", "Brand Identity", "Editorial Design", "Motion Graphics"]
+    skills: ["Pacote Adobe (PS, PR, DW)", "Canva", "Identidade Visual & Branding", "Design Editorial", "Capcut", "Motion Graphics"]
 
   },
 
   {
 
-    title: "Strategy & Management",
+    title: "Gestão & Estratégia",
 
     icon: <Briefcase size={18} />,
 
-    skills: ["Agile (Scrum/Kanban)", "Produção Cultural", "Políticas Públicas"]
+    skills: ["Metodologias Ágeis (Scrum/Kanban)", "Auxiliar Administrativo", "Produção Cultural", "Análise de Políticas Públicas"]
 
   }
 
@@ -602,13 +601,11 @@ export default function App() {
 
           <div className="hidden md:flex gap-8 text-sm font-medium text-zinc-400">
 
-            <a href="#portfolio" className="hover:text-white transition-colors">Projectos</a>
+            <a href="#portfolio" className="hover:text-white transition-colors">Projetos</a>
 
             <a href="#skills" className="hover:text-white transition-colors">Skills</a>
 
-            <a href="#formacao" className="hover:text-white transition-colors">Trajectória</a>
-
-            <a href="mailto:joao.magalhaes.34@gmail.com" className="hover:text-white transition-colors">Contacto</a>
+            <a href="#formacao" className="hover:text-white transition-colors">Trajetória</a>
 
           </div>
 
@@ -626,7 +623,7 @@ export default function App() {
 
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-8">
 
-            <Sparkles size={14} /> Creative Strategist & Data Expert
+            <Sparkles size={14} /> Portfólio de design
 
           </div>
 
@@ -636,23 +633,17 @@ export default function App() {
 
           </h1>
 
-          <p className="text-xl md:text-2xl font-semibold mb-8 text-zinc-300">• Design • Brand Strategy • Social Science </p>
+          <p className="text-xl md:text-2xl font-semibold mb-8 text-zinc-300">• Design • Brand institucional • Cientista Social </p>
 
           <p className="text-zinc-400 max-w-2xl text-lg leading-relaxed mb-10">Comunicador Popular transformando complexidade em impacto visual através de dados e design estratégico.</p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
-
-            <a href="#portfolio" className="bg-white text-zinc-950 px-10 py-4 rounded-full font-bold hover:bg-zinc-200 transition-all shadow-xl shadow-white/5 text-center">Portfolio</a>
-
-            <a href="mailto:joao.magalhaes.34@gmail.com" className="bg-zinc-900 border border-zinc-800 px-10 py-4 rounded-full flex items-center justify-center gap-2 hover:bg-zinc-800 transition-all text-white text-center"><Mail size={18} /> Contacto</a>
-
-          </div>
-
-        </div>
+         <div className="flex justify-center">
+  <a href="#portfolio" className="bg-white text-zinc-950 px-10 py-4 rounded-full font-bold hover:bg-zinc-200 transition-all shadow-xl shadow-white/5 text-center">
+    Portfólio
+  </a>
+</div>
 
       </header>
-
-
 
       <section className="max-w-7xl mx-auto px-6 pb-24 grid grid-cols-2 md:grid-cols-4 gap-6">
 
@@ -662,7 +653,7 @@ export default function App() {
 
           <div className="text-3xl font-black text-white">+1.3M</div>
 
-          <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Reach Total</div>
+          <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Alcance mensal</div>
 
         </div>
 
@@ -672,7 +663,7 @@ export default function App() {
 
           <div className="text-3xl font-black text-white">1M</div>
 
-          <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Engagement</div>
+          <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Engajamento</div>
 
         </div>
 
@@ -680,9 +671,9 @@ export default function App() {
 
           <Terminal size={24} className="text-emerald-400 block mx-auto mb-4" />
 
-          <div className="text-3xl font-black text-white">49</div>
+          <div className="text-3xl font-black text-white">1.9k min/sem</div>
 
-          <div className="text-[10px] text-zinc-500 uppercase tracking-widest">IA Units/wk</div>
+          <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Análise de Dados Qualitativos</div>
 
         </div>
 
@@ -692,7 +683,7 @@ export default function App() {
 
           <div className="text-3xl font-black text-white">11</div>
 
-          <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Years Experience</div>
+          <div className="text-[10px] text-zinc-500 uppercase tracking-widest">Anos de Trajetória</div>
 
         </div>
 
@@ -704,23 +695,23 @@ export default function App() {
 
         <div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-8 text-center md:text-left">
 
-          <h2 className="text-4xl font-black text-white uppercase tracking-tighter">Selected Projects</h2>
+          <h2 className="text-4xl font-black text-white uppercase tracking-tighter">PROJETOS EM DESTAQUE</h2>
 
           <div className="flex flex-wrap justify-center gap-2 bg-zinc-900 p-1.5 rounded-2xl border border-zinc-800">
 
             {[
 
-              { id: 'todos', label: 'All' },
+              { id: 'todos', label: 'Todos' },
 
-              { id: 'social', label: 'Content Strategy' },
+              { id: 'social', label: 'Estratégia de Conteúdo' },
 
               { id: 'logotipos', label: 'Logotipos' },
 
-              { id: 'design', label: 'Visual Design' },
+              { id: 'design', label: 'Design Visual ' },
 
               { id: 'diagramacao', label: 'Editorial' },
 
-              { id: 'video', label: 'Motion & Video' }
+              { id: 'video', label: 'Motion Design & Video' }
 
             ].map(f => (
 
@@ -744,7 +735,7 @@ export default function App() {
 
       <section id="skills" className="max-w-7xl mx-auto px-6 py-24 border-t border-zinc-900">
 
-        <h2 className="text-4xl font-black mb-12 text-white uppercase tracking-tighter">Core Competencies</h2>
+        <h2 className="text-4xl font-black mb-12 text-white uppercase tracking-tighter">Especialidades Técnicas</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
@@ -788,15 +779,15 @@ export default function App() {
 
         <div className="max-w-7xl mx-auto px-6">
 
-          <h2 className="text-3xl font-black mb-12 text-white uppercase tracking-tighter flex items-center gap-3"><Award className="text-indigo-500" /> Recognition & Education</h2>
+          <h2 className="text-3xl font-black mb-12 text-white uppercase tracking-tighter flex items-center gap-3"><Award className="text-indigo-500" /> RECONHECIMENTO E FORMAÇÃO </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
 
-            <div className="p-6 border-l-2 border-indigo-500 bg-indigo-500/5 rounded-r-2xl h-full"><h4 className="font-bold text-lg text-white">2º Lugar - Hackathon COVID-19</h4><p className="text-xs text-indigo-400 font-bold mb-2 uppercase">LatAm (2020)</p><p className="text-sm text-zinc-400 leading-relaxed">Design de solução para assistência social em resposta à pandemia.</p></div>
+            <div className="p-6 border-l-2 border-indigo-500 bg-indigo-500/5 rounded-r-2xl h-full"><h4 className="font-bold text-lg text-white">2º Lugar - Hackathon COVID-19</h4><p className="text-xs text-indigo-400 font-bold mb-2 uppercase"> HACKING.RIO  (2020)</p><p className="text-sm text-zinc-400 leading-relaxed">Design de solução para assistência social em resposta à pandemia.</p></div>
 
-            <div className="p-6 border-l-2 border-indigo-500 bg-indigo-500/5 rounded-r-2xl h-full"><h4 className="font-bold text-lg text-white">Public Science Collaboration</h4><p className="text-xs text-indigo-400 font-bold mb-2 uppercase">HfU Germany</p><p className="text-sm text-zinc-400 leading-relaxed">Concepção de projecto transmídia focado em estratégias de comunicação.</p></div>
+            <div className="p-6 border-l-2 border-indigo-500 bg-indigo-500/5 rounded-r-2xl h-full"><h4 className="font-bold text-lg text-white">Colaboração no Workshop "Public Science"</h4><p className="text-xs text-indigo-400 font-bold mb-2 uppercase">Furtwangen University & PUC-Rio</p><p className="text-sm text-zinc-400 leading-relaxed">Concepção do projeto transmídia <span className="italic">"Be a Voice not an Echo"</span>, focado em estratégias de comunicação e divulgação científica na América Latina.</p></div>
 
-            <div className="p-6 border-l-2 border-indigo-500 bg-indigo-500/5 rounded-r-2xl h-full"><h4 className="font-bold text-lg text-white">Computational Social Science</h4><p className="text-xs text-indigo-400 font-bold mb-2 uppercase">PUC-Rio</p><p className="text-sm text-zinc-400 leading-relaxed">Investigação focada em fenómenos digitais e infraestrutura de dados.</p></div>
+            <div className="p-6 border-l-2 border-indigo-500 bg-indigo-500/5 rounded-r-2xl h-full"><h4 className="font-bold text-lg text-white">Computational Social Science</h4><p className="text-xs text-indigo-400 font-bold mb-2 uppercase">University of california, Davis</p><p className="text-sm text-zinc-400 leading-relaxed">Investigação focada em fenómenos digitais e infraestrutura de dados.</p></div>
 
             <div className="p-6 border-l-2 border-indigo-500 bg-indigo-500/5 rounded-r-2xl h-full"><h4 className="font-bold text-lg text-white">Pesquisador Colaborador</h4><p className="text-xs text-indigo-400 font-bold mb-2 uppercase">Fiocruz / InPro</p><p className="text-sm text-zinc-400 leading-relaxed">Diagnósticos territoriais em saúde através de design de dados.</p></div>
 
@@ -814,15 +805,13 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
 
-            <div><h2 className="text-4xl font-black mb-6 text-white tracking-tighter">Empowering territories through <span className="text-indigo-500 italic">data-driven creativity.</span></h2><p className="text-zinc-500 text-lg">Aberto a parcerias em projectos de impacto social e branding institucional.</p></div>
+            <h2 className="text-4xl font-black mb-6 text-white tracking-tighter">Fortalecendo territórios através da criatividade <span className="text-indigo-500 italic">baseada em dados.</span> </h2> <p className="text-zinc-500 text-lg">Aberto a parcerias em projectos de impacto social e branding institucional.</p></div>
 
             <div className="flex flex-col md:items-end justify-center gap-6">
 
               <div className="flex gap-4 justify-center md:justify-end">
 
                 <a href="https://www.linkedin.com/in/magalhaescunha" target="_blank" className="w-14 h-14 bg-zinc-900 rounded-full flex items-center justify-center hover:bg-indigo-600 transition-all text-white" aria-label="LinkedIn"><Linkedin /></a>
-
-                <a href="mailto:joao.magalhaes.34@gmail.com" className="w-14 h-14 bg-zinc-900 rounded-full flex items-center justify-center hover:bg-indigo-600 transition-all text-white" aria-label="Email"><Mail /></a>
 
               </div>
 
@@ -832,7 +821,7 @@ export default function App() {
 
           </div>
 
-          <div className="text-center text-zinc-700 text-sm pt-8 border-t border-zinc-900">© {new Date().getFullYear()} João Magalhães. Design & Estratégia Visual.</div>
+          <div className="text-center text-zinc-700 text-sm pt-8 border-t border-zinc-900">© {new Date().getFullYear()} João Magalhães. Design & estratégia visual.</div>
 
         </div>
 
