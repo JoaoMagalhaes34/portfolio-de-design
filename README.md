@@ -1,5 +1,6 @@
 # Portfólio de Design: João Magalhães
-### Este repositório contém o código-fonte do meu portfólio interativo.
+
+🌍 **Acesse o portfólio online:** [https://JoaoMagalhaes34.github.io/portfolio-de-oficinas-maker/](https://JoaoMagalhaes34.github.io/portfolio-de-oficinas-maker/)
 
 ## 🛠️ Tecnologias utilizadas
 * **React.js** (Vite)
